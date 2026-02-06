@@ -1,0 +1,3 @@
+module AuctionServer {
+    requires AuctionModel;
+}
