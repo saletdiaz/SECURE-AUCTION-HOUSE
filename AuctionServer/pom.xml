@@ -17,4 +17,14 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>auction</groupId>
+            <artifactId>AuctionModel</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/AuctionModel.jar</systemPath>
+        </dependency>
+    </dependencies>
+
 </project>
