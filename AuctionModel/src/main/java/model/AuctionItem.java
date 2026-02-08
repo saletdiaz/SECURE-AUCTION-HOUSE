@@ -9,7 +9,7 @@ public class AuctionItem implements Serializable {
     private String description;
     private double startingPrice;
 
-    private AuctionItem(int id, String name, String description, double startingPrice) {
+    public AuctionItem(int id, String name, String description, double startingPrice) {
         this.id = id;
         this.name = name;
         this.description = description;
